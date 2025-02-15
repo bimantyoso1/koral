@@ -1,0 +1,15 @@
+streamlit
+tensorflow
+numpy==1.21.5
+pillow
+gdown
+p
+pandas==1.4.4
+imutils
+matplotlib
+seaborn
+opencv-python
+keras
+keras-tuner
+scikit-learn
+pip==22.2.2
