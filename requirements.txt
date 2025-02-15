@@ -1,10 +1,10 @@
 streamlit
 tensorflow
-numpy==1.21.5
+numpy
 pillow
 gdown
 p
-pandas==1.4.4
+pandas
 imutils
 matplotlib
 seaborn
@@ -12,4 +12,4 @@ opencv-python
 keras
 keras-tuner
 scikit-learn
-pip==22.2.2
+pip
