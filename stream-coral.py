@@ -31,19 +31,11 @@ st.title("Coral Guard AI for Classification: Healthy vs. Bleached")
 st.image("CoralAi.png", caption="Coral Reef", use_column_width=True)
 
 st.write("""
-    Coral reef resilience refers to building resistance and recovery potential into reef ecosystems by reducing or eliminating stressors
-    (e.g., overfishing, pollution, coastal development). As mentioned, coral reef resilience relates to a reef ecosystem’s ability to resist 
-    disturbance and recover towards a coral-rich state, and/or to maintain morphological diversity as opposed to shifting to an 
-    algal-dominated state or a single coral morphology. ref It emphasizes the importance of managing the capacity of reef ecosystems 
-    to cope with and adapt to change instead of trying to prevent change altogether. Coral reef resilience is ultimately about coral reef health. 
-    A healthy “immune system” helps coral communities better cope with and recover from major stress events such as storm impacts 
-    or mass coral bleaching events. Building resilience into coral reef conservation means helping to strengthen the “immune system” of 
-    coral reef ecosystems to increase the likelihood that they will continue to thrive.
-    
-    Managing a coral reef ecosystem for resilience includes supporting coral community health and ecosystem function as a whole. 
-    The diverse assemblage of corals, associated habitats (e.g., seagrass beds and mangroves), fishes, macroalgae, and other invertebrates 
-    that function as an ecological unit require holistic management strategies. Taking a holistic approach can enhance reef resilience 
-    and productivity of reefs into the future.
+    CoralGuard-AI is an advanced AI-powered system designed to classify the health of coral reefs, distinguishing between healthy and bleached conditions. This initiative is driven by the critical need to monitor and protect coral reef ecosystems, which are increasingly threatened by environmental stressors such as climate change, pollution, overfishing, and coastal development.
+
+    Coral reef resilience refers to the ability of reef ecosystems to resist disturbances and recover while maintaining biodiversity and ecological functions. Instead of merely preventing change, conservation efforts focus on enhancing the reef’s adaptive capacity, ensuring its survival against extreme weather events, mass bleaching, and other ecological challenges. A resilient coral reef functions like a strong immune system, capable of withstanding and recovering from stressors.
+
+    By adopting a holistic management approach, CoralGuard-AI supports reef conservation by integrating AI-driven classification with ecological monitoring. This ensures that efforts to strengthen reef ecosystems remain data-driven, enabling better decision-making in protecting marine biodiversity.
     
     This application helps classify the condition of coral reefs automatically using **AI**.
 
