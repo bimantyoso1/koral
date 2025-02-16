@@ -30,12 +30,23 @@ class_names = ['Bleached', 'Healthy']
 #st.image("https://images.prismic.io/ocean-agency-cms/Z2adyJbqstJ98wZs_RenataCR.jpg?auto=format,compress", caption="Coral Reef", use_column_width=True)
 
 # Streamlit UI
-st.title("Coral Reefs Classification: Healthy vs. Bleached")
-st.image("https://images.prismic.io/ocean-agency-cms/Z2adyJbqstJ98wZs_RenataCR.jpg?auto=format,compress", caption="Coral Reef", use_column_width=True)
+st.title("Coral Guard AI for Classification: Healthy vs. Bleached")
+st.image("CoralAi.png", caption="Coral Reef", use_column_width=True)
 
 st.write("""
-    Terumbu karang adalah ekosistem laut yang sangat penting bagi kehidupan bawah laut. 
-    Namun, akibat perubahan iklim dan polusi, banyak terumbu karang mengalami pemutihan (**bleaching**).
+    Coral reef resilience refers to building resistance and recovery potential into reef ecosystems by reducing or eliminating stressors
+    (e.g., overfishing, pollution, coastal development). As mentioned, coral reef resilience relates to a reef ecosystem’s ability to resist 
+    disturbance and recover towards a coral-rich state, and/or to maintain morphological diversity as opposed to shifting to an 
+    algal-dominated state or a single coral morphology. ref It emphasizes the importance of managing the capacity of reef ecosystems 
+    to cope with and adapt to change instead of trying to prevent change altogether. Coral reef resilience is ultimately about coral reef health. 
+    A healthy “immune system” helps coral communities better cope with and recover from major stress events such as storm impacts 
+    or mass coral bleaching events. Building resilience into coral reef conservation means helping to strengthen the “immune system” of 
+    coral reef ecosystems to increase the likelihood that they will continue to thrive.
+    
+    Managing a coral reef ecosystem for resilience includes supporting coral community health and ecosystem function as a whole. 
+    The diverse assemblage of corals, associated habitats (e.g., seagrass beds and mangroves), fishes, macroalgae, and other invertebrates 
+    that function as an ecological unit require holistic management strategies. Taking a holistic approach can enhance reef resilience 
+    and productivity of reefs into the future.
     
     Aplikasi ini membantu mengklasifikasikan kondisi terumbu karang secara otomatis menggunakan **AI**.
     
