@@ -28,7 +28,7 @@ class_names = ['Bleached', 'Healthy']
 
 # Streamlit UI
 st.title("Coral Guard AI for Classification: Healthy vs. Bleached")
-st.image("CoralAi.png", caption="Coral Reef", use_column_width=True)
+st.image("CoralAi.png", caption="Coral Reef", use_container_width=True)
 
 st.write("""
     CoralGuard-AI is an advanced AI-powered system designed to classify the health of coral reefs, distinguishing between healthy and bleached conditions. This initiative is driven by the critical need to monitor and protect coral reef ecosystems, which are increasingly threatened by environmental stressors such as climate change, pollution, overfishing, and coastal development.
@@ -76,4 +76,4 @@ st.write("""
 
     Thank you to everyone who contributed to the development of this project!
 """)
-st.image("Coral2.png", caption="Coral Reef", use_column_width=True)
+st.image("Coral2.png", caption="Coral Reef", use_container_width=True)
