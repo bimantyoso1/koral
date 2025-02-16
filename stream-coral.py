@@ -26,9 +26,6 @@ model = tf.keras.models.load_model(model_path)
 # Class labels
 class_names = ['Bleached', 'Healthy']
 
-# Display header image
-#st.image("https://images.prismic.io/ocean-agency-cms/Z2adyJbqstJ98wZs_RenataCR.jpg?auto=format,compress", caption="Coral Reef", use_column_width=True)
-
 # Streamlit UI
 st.title("Coral Guard AI for Classification: Healthy vs. Bleached")
 st.image("CoralAi.png", caption="Coral Reef", use_column_width=True)
@@ -48,12 +45,12 @@ st.write("""
     that function as an ecological unit require holistic management strategies. Taking a holistic approach can enhance reef resilience 
     and productivity of reefs into the future.
     
-    Aplikasi ini membantu mengklasifikasikan kondisi terumbu karang secara otomatis menggunakan **AI**.
-    
-    **Proyek ini dikembangkan oleh Bimantyoso Hamdikatama** 
-    dari Universitas Muhammadiyah Surakarta sebagai upaya mendukung pelestarian lingkungan 
-    dengan teknologi Deep Learning. Aplikasi ini memanfaatkan model CNN (Convolutional Neural Network) 
-    **untuk membedakan antara healthy dan bleached coral reefs berdasarkan citra bawah laut.**
+    This application helps classify the condition of coral reefs automatically using **AI**.
+
+    **This project was developed by Bimantyoso Hamdikatama**  
+    from Universitas Muhammadiyah Surakarta as an effort to support environmental conservation  
+    through Deep Learning technology. This application utilizes a CNN (Convolutional Neural Network) model  
+    **to distinguish between healthy and bleached coral reefs based on underwater images.**
 """)
 
 # Upload image
@@ -78,13 +75,12 @@ if uploaded_file is not None:
 
 # Team Contributions
 st.write("""
-## Kontribusi Tim
+# Team Contributions
 
-- **Ketua Proyek**: Bimantyoso Hamdikatama
-- **Model AI & Machine Learning**: Bimantyoso Hamdikatama, Agus Supriyanto, Tri Yulianto
-- **Pengolahan Data & Analisis**: Diah Ratnasari, Endang Susanti, Agung Triatmaja
-- **Anggota** : Nia Rachmawati, Dedi Mizwar, Renata Anita
+    - **Project Leader**: Bimantyoso Hamdikatama  
+    - **AI Model & Machine Learning**: Bimantyoso Hamdikatama, Agus Supriyanto  
+    - **Data Processing & Analysis**: Diah Ratnasari, Endang Susanti  
+    - **Deployment**: Agung Triatmaja  
 
-
-Terima kasih kepada semua pihak yang telah berkontribusi dalam pengembangan proyek ini!
+    Thank you to everyone who contributed to the development of this project!
 """)
