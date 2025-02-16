@@ -46,7 +46,7 @@ st.write("""
 """)
 
 # Upload image
-uploaded_file = st.file_uploader("Unggah gambar terumbu karang", type=["jpg", "png", "jpeg"])
+uploaded_file = st.file_uploader("Please Upload Coral Image", type=["jpg", "png", "jpeg"])
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file).convert('RGB')
@@ -76,3 +76,4 @@ st.write("""
 
     Thank you to everyone who contributed to the development of this project!
 """)
+st.image("Coral2.png", caption="Coral Reef", use_column_width=True)
